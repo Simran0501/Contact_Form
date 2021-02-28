@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url('/static/images/img1.jpg') no-repeat center fixed;
+
+	
+}
+
+.cont{
+	width: 600px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: none;
+	text-align: center;
+	border-radius: 30px;
+	font-family: Montserrat;
+}
+
+.h1{
+	font-family: Montserrat;
+	font-size: x-large;
+
+}
+
+#n{
+	border-style: groove;
+	height: 30px;
+	font-family: Montserrat;
+}
+
+#e{
+	border-style: groove;
+	height: 30px;
+	font-family: Montserrat;
+}
+
+#p{
+	border-style: groove;
+	height: 30px;
+	font-family: Montserrat;
+}
+
+#q{
+	border-style: groove;
+	height: 30px;
+	font-family: Montserrat;
+}
+
+#s:hover{
+	border-radius: 12px;
+	font-style: normal;
+	height: 25px;
+	
+
+
+}

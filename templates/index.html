@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+<body>
+<div class="container">
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ message }}
+    </div> 
+    {% endfor %}
+</div>
+
+    
+<form action="{{url_for('index')}}" method="POST" class="cont">
+    <center><h1>CONTACT US</h1>
+    <input type="text" name="name" placeholder="Name" required id="n">
+    <br> <br>
+    <input type="email" name="email" placeholder="Email" required id="e">
+    <br>  <br>
+    <input name="pno" placeholder="Phone number" required id="p">
+    <br>  <br>
+    <textarea name="query" placeholder="Write your Query" rows=40 cols=40 required id="q">
+        
+        </textarea>
+    <br>  <br>
+    <input type="submit" value="SUBMIT" id="s">
+    </center>
+</form>
+{% endblock %}
+</body>
+</html>
